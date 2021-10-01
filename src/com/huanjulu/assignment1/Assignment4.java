@@ -1,4 +1,4 @@
-package com.huanjulu;
+package com.huanjulu.assignment1;
 
 public class Assignment4 {
 
