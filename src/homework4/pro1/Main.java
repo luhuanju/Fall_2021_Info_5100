@@ -8,9 +8,9 @@ public class Main {
 
         ThreadSafeLinkedList<Integer> list = new ThreadSafeLinkedList<>();
 
-//        for (int i = 0; i < 10; i++) {
-//            list.addAtPosition(i, i);
-//        }
+        for (int i = 0; i < 10; i++) {
+            list.addAtPosition(i, i);
+        }
 
         int size = list.size();
         System.out.println("Size " + size);
