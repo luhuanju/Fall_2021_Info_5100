@@ -12,7 +12,7 @@ public class Main {
         shapeMaker.drawCircle();
 
         Shape rectangle =new Rectangle();
-         shapeMaker = new ShapeMaker(rectangle);
+        shapeMaker = new ShapeMaker(rectangle);
         shapeMaker.drawRectangle();
 
 
