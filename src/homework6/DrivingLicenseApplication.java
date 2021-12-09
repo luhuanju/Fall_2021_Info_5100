@@ -15,6 +15,10 @@ public class DrivingLicenseApplication {
             int age = sc.nextInt();
             if (2021-age<16){
                 throw new Exception("The age of the applicant is   "+(2021-age)+"    which is too early to apply for a driving license");
+            }else{
+                System.out.print("the age you input is large 16 and is valid");
+                sc.close();
+                break;
             }
         }
     }

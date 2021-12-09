@@ -39,7 +39,7 @@ public class Main {
         System.out.println("----------Sort by ascending order of 'dateOfBirth'-----------");
         //Sort by ascending order of 'dateOfBirth'
         Collections.sort(students,(a,b)->a.getDateOfBirth().getYear()-b.getDateOfBirth().getYear());
-        for (Student s: students) System.out.println(s.getDateOfBirth());
+        students.stream().forEach(System.out::println);
     }
 
     public static Date parseDate(String date) {
